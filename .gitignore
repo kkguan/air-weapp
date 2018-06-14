@@ -1,0 +1,11 @@
+*.log
+dist/
+node_modules
+.DS_Store
+.vscode
+.idea
+.preject
+.svn/
+*.swp
+*.swo
+*.proj
