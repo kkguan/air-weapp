@@ -1,6 +1,8 @@
 {
     "navigationBarTitleText": "List 列表",
     "usingComponents": {
-     
+      "air-panel": "../../dist/panel/index",
+      "air-cell-group": "../../dist/cell-group/index",
+      "air-cell": "../../dist/cell/index"
     }
   }
