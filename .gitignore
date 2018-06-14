@@ -1,6 +1,6 @@
 *.log
 dist/
-node_modules
+node_modules/
 .DS_Store
 .vscode
 .idea
@@ -9,3 +9,6 @@ node_modules
 *.swp
 *.swo
 *.proj
+examples/dist/
+examples/project.config.json
+test/unit/coverage
