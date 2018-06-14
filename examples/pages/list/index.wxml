@@ -1,0 +1,5 @@
+<view>
+ <air-cell title="单行列表"></air-cell>
+
+ <air-cell title="单行列表" is-link value="详细信息"></air-cell>
+</view>

@@ -1,4 +1,4 @@
-component({
+Component({
     externalClasses: ['air-class'],
 
     relations: {

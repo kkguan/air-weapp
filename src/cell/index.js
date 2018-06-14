@@ -1,7 +1,7 @@
 const warn = (msg, getValue) => {
     console.warn(msg);
     console.log('接收到的值为：', getValue);
-}
+};
 
 Component({
     externalClasses: ['air-class'],
@@ -46,20 +46,24 @@ Component({
             type: String,
             value: ''
         },
-        data: {
-            isLastCell: true
-        }
+    },
+    data: {
+        isLastCell: true
     },
     methods: {
         navigateTo() {
-            const { url, isLink, linkType } = this.data;
+            const {
+                url,
+                isLink,
+                linkType
+            } = this.data;
             const type = typeof isLink;
 
             this.triggerEvent('click', {})
 
-            if(!isLink || !url || url === 'true' || url === 'false') return;
+            if (!isLink || !url || url === 'true' || url === 'false') return;
 
-            if(type !== 'boolean' && type !== 'string') {
+            if (type !== 'boolean' && type !== 'string') {
                 warn('isLink 属性值必须是一个字符串或布尔值', isLink);
                 return;
             }
@@ -68,15 +72,19 @@ Component({
                 warn('linkType 属性可选值为 navigateTo，redirectTo，switchTab，reLaunch', linkType);
                 return;
             }
-            wx[this.data.linkType].call(wx, {url});
+            wx[this.data.linkType].call(wx, {
+                url
+            });
         },
-        handleTap () {
+        handleTap() {
             if (!this.data.onlyTapFooter) {
                 this.navigateTo();
             }
         },
-        updateIsLastCell (isLastCell) {
-            this.setData({ isLastCell });
+        updateIsLastCell(isLastCell) {
+            this.setData({
+                isLastCell
+            });
         }
     }
-}) 
+})

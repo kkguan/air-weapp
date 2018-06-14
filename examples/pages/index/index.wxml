@@ -1,4 +1,4 @@
 <!--index.wxml-->
 <view class="container">
-   <i-cell title="List 列表" is-link url="/pages/list/index"></i-cell>
+   123
 </view>

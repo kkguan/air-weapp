@@ -1,7 +1,8 @@
 {
     "navigationBarTitleText": "Air Weapp",
     "usingComponents": {
-      "i-cell-group": "../../dist/cell-group/index",
-      "i-cell": "../../dist/cell/index"
+      "air-cell-group": "../../dist/cell-group/index",
+      "air-cell": "../..//dist/cell/index",
+      "air-icon": "../..//dist/icon/index"
     }
-  }
+}
