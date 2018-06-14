@@ -13,8 +13,8 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.0.9",
 	"appid": "wxc265fd9acbb92c35",
-	"projectname": "airUI",
-	"isGameTourist": false,
+	"projectname": "air-weapp",
+	"isGameTourist": true,
 	"condition": {
 		"search": {
 			"current": -1,
