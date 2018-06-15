@@ -90,7 +90,7 @@
                 {{disabled}}
             </view>
         </view>
-        <view class="color-item border">
+        <view class="color-item border dark">
             <view class="color-item-title">
                 边框 Border
             </view>
@@ -98,7 +98,7 @@
                 {{border}}
             </view>
         </view>
-        <view class="color-item divider">
+        <view class="color-item divider dark">
             <view class="color-item-title">
                 分割线 Divider
             </view>
@@ -106,7 +106,7 @@
                 {{divider}}
             </view>
         </view>
-        <view class="color-item background">
+        <view class="color-item background dark">
             <view class="color-item-title">
                 背景 Background
             </view>

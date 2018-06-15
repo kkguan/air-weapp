@@ -13,6 +13,9 @@
     border-radius: 5px;
     margin: 8px 16px;
 }
+.color-item.dark{
+    color: #657180;
+}
 
 .color-item-title{
     padding: 6px 6px 0;
