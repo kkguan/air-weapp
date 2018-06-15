@@ -11,9 +11,9 @@
 ```
 
 ### 开发流程
-1. git clone git@github.com:AlanZou007/air-weapp.git
-2. npm install 或者 yarn
+1. `git clone git@github.com:AlanZou007/air-weapp.git`
+2. `npm install`
 3. 在开发者工具上打开 examples 目录。
 4. 在src目录开发组件， 并在 examples 下 加入新的 页面和index页面添加入口。
-5. 运行 npm run start , 编译没有报错。 
+5. 运行 `npm run dev`。 
 6. 提交pull request
