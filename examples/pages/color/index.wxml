@@ -58,7 +58,7 @@
 
 <air-panel title="中性色">
     <view class="color-wrap">
-         <view class="color-item title">
+        <view class="color-item title">
             <view class="color-item-title">
                 标题 Title
             </view>
