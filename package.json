@@ -18,6 +18,7 @@
     "url": "https://github.com/AlanZou007/air-weapp/issues"
   },
   "repository": "git@github.com:AlanZou007/air-weapp.git",
+  
   "author": "azou",
   "license": "MIT",
   "devDependencies": {
