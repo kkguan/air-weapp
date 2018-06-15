@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/list/index",
     "pages/icon/index",
-    "pages/button/index"
+    "pages/button/index",
+    "pages/panel/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
