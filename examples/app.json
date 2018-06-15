@@ -2,7 +2,8 @@
   "pages":[
     "pages/index/index",
     "pages/list/index",
-    "pages/icon/index"
+    "pages/icon/index",
+    "pages/button/index"
   ],
   "window":{
     "backgroundTextStyle":"light",

@@ -23,7 +23,10 @@ Component({
 
             if(len > 0) {
                 let lastIndex = len - 1;
-                cell.updateIsLastCell(index === lastIndex);
+                cells.forEach((cell, index) => {
+                    cell.updateIsLastCell(index === lastIndex);
+                })
+                
             }
 
         }
