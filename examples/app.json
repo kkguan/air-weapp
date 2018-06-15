@@ -5,7 +5,8 @@
     "pages/icon/index",
     "pages/button/index",
     "pages/panel/index",
-    "pages/color/index"
+    "pages/color/index",
+    "pages/message/index"
   ],
   "window":{
     "backgroundTextStyle":"light",

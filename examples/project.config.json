@@ -33,7 +33,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
+			"current": 2,
 			"list": [
 				{
 					"id": -1,
@@ -46,6 +46,11 @@
 					"name": "color",
 					"pathName": "pages/color/index",
 					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "message",
+					"pathName": "pages/message/index"
 				}
 			]
 		}

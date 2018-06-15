@@ -13,3 +13,9 @@
         <air-cell title="Button 按钮" is-link url="/pages/button/index"></air-cell>
    </air-cell-group>
 </air-panel>
+
+<air-panel title="视图">
+   <air-cell-group>
+        <air-cell title="Message 消息" is-link url="/pages/message/index"></air-cell>
+   </air-cell-group>
+</air-panel>
