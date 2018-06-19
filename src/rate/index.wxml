@@ -9,5 +9,5 @@
         bindtap="handleClick">
         <air-icon type="collection_fill" size="{{size}}"></air-icon>
     </view>
-    <view class="i-rate-text" wx:if="{{ value !== 0 }}"><slot></slot></view>
+    <view class="air-rate-text" wx:if="{{ value !== 0 }}"><slot></slot></view>
 </view>
