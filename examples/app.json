@@ -7,7 +7,8 @@
     "pages/panel/index",
     "pages/color/index",
     "pages/message/index",
-    "pages/rate/index"
+    "pages/rate/index",
+    "pages/stepper/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
