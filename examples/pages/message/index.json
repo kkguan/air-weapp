@@ -1,7 +1,0 @@
-{
-    "navigationBarTitleText": "Message 消息",
-    "usingComponents": {
-      "air-button": "../../dist/button/index",
-      "air-message": "../../dist/message/index"
-    } 
-}

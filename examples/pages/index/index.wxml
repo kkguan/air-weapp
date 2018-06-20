@@ -18,7 +18,7 @@
 
 <air-panel title="视图">
    <air-cell-group>
-        <air-cell title="Message 消息" is-link url="/pages/message/index"></air-cell>
+        <air-cell title="TopTips 顶部提示" is-link url="/pages/top-tips/index"></air-cell>
         <air-cell title="Action Sheet 动作面板" is-link url="/pages/action-sheet/index"></air-cell>
    </air-cell-group>
 </air-panel>

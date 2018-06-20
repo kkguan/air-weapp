@@ -15,4 +15,4 @@
     </view>
 </air-action-sheet>
 </view>
-<air-message id="message" />
+<air-top-tips id="message" />

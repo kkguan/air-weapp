@@ -6,7 +6,7 @@
     "pages/button/index",
     "pages/panel/index",
     "pages/color/index",
-    "pages/message/index",
+    "pages/top-tips/index",
     "pages/rate/index",
     "pages/stepper/index",
     "pages/action-sheet/index"
