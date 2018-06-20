@@ -1,0 +1,13 @@
+<view class="air-class air-upload">
+    <view class="air-upload-main">
+        <view class="air-upload-add" wx:if="{{type === 'add'}}">
+            <air-icon air-class="air-upload-add-icon"  size="28" color="{{color}}" type="add" />
+        </view>
+        <view class="air-upload-camera" wx:if="{{type === 'camera'}}">
+            <air-icon air-class="air-upload-camera-icon"  size="20"  color="{{color}}" type="camera_fill" />
+        </view>
+        <view class="air-upload-camera" wx:if="{{type === 'custom'}}">
+            <slot></slot>
+        </view>
+    </view>
+</view>

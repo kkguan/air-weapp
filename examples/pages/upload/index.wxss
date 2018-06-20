@@ -1,0 +1,7 @@
+.upload-wrap {
+    padding: 8px;
+}
+
+.upload-camera {
+    margin-left: 20px;
+}

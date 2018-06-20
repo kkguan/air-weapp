@@ -21,9 +21,10 @@
    </air-cell-group>
 </air-panel>
 
-<air-panel title="视图">
+<air-panel title="交互">
    <air-cell-group>
         <air-cell title="TopTips 顶部提示" is-link url="/pages/top-tips/index"></air-cell>
         <air-cell title="Action Sheet 动作面板" is-link url="/pages/action-sheet/index"></air-cell>
+        <air-cell title="Upload 文件上传" is-link url="/pages/upload/index"></air-cell>
    </air-cell-group>
 </air-panel>

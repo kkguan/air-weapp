@@ -11,7 +11,8 @@
     "pages/stepper/index",
     "pages/action-sheet/index",
     "pages/loading/index",
-    "pages/switch/index"
+    "pages/switch/index",
+    "pages/upload/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
