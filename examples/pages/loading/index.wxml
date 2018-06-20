@@ -1,0 +1,13 @@
+<view class="loading-wrap">
+    <air-loading size="large" />
+</view>
+<view class="loading-wrap">
+    <air-loading  />
+</view>
+<view class="loading-wrap">
+    <air-loading  size="small" />
+</view>
+
+<view class="loading-wrap">
+    <air-loading  color="red" />
+</view>
