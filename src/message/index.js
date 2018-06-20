@@ -15,7 +15,6 @@ Component({
     methods: {
         handleShow(options) {
             const { type = 'default', duration = 2 } = options;
-            
             this.setData({
                 ...options,
                 type,
