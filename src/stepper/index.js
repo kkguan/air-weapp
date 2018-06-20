@@ -1,3 +1,7 @@
+// Note that the bitwise operators and shift operators operate on 32-bit ints
+// so in that case, the max safe integer is 2^31-1, or 2147483647
+const VERY_LARGE_NUMBER = 2147483647;
+
 function addNum (num1, num2) {
     let sq1, sq2, m;
     try {
@@ -21,11 +25,11 @@ Component({
     properties: {
         max: {
             type: Number,
-            value: Infinity
+            value: VERY_LARGE_NUMBER
         },
         min: {
             type: Number,
-            value: -Infinity
+            value: 1
         },
         step: {
             type: Number,
