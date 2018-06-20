@@ -9,7 +9,8 @@
     "pages/top-tips/index",
     "pages/rate/index",
     "pages/stepper/index",
-    "pages/action-sheet/index"
+    "pages/action-sheet/index",
+    "pages/loading/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
