@@ -17,6 +17,7 @@
          <air-cell title="Loading 加载" is-link url="/pages/loading/index"></air-cell>
         <air-cell title="Rate 评分" is-link url="/pages/rate/index"></air-cell>
         <air-cell title="Stepper 步进器" is-link url="/pages/stepper/index"></air-cell>
+        <air-cell title="Switch 开关选择器" is-link url="/pages/switch/index"></air-cell>
    </air-cell-group>
 </air-panel>
 

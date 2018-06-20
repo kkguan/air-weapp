@@ -10,7 +10,8 @@
     "pages/rate/index",
     "pages/stepper/index",
     "pages/action-sheet/index",
-    "pages/loading/index"
+    "pages/loading/index",
+    "pages/switch/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
