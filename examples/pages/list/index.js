@@ -4,8 +4,7 @@ Page({
     },
     onChange({detail}){
         this.setData({
-            'switch1' : detail.value
+            'switch1' : detail.checked
         })
-
     }
 })

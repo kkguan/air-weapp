@@ -36,7 +36,7 @@
             </air-cell>
         </block>
         <air-cell title="开关">
-            <air-switch value="{{switch1}}" bind:change="onChange" slot="footer"></air-switch>
+            <air-switch checked="{{switch1}}" bind:change="onChange" slot="footer"></air-switch>
         </air-cell>
     </air-cell-group>
 </air-panel>
