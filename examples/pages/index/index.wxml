@@ -15,7 +15,7 @@
         <air-cell title="Icon 图标" is-link url="/pages/icon/index"></air-cell>
         <air-cell title="Button 按钮" is-link url="/pages/button/index"></air-cell>
          <air-cell title="Loading 加载" is-link url="/pages/loading/index"></air-cell>
-        <air-cell title="rate 评分" is-link url="/pages/rate/index"></air-cell>
+        <air-cell title="Rate 评分" is-link url="/pages/rate/index"></air-cell>
         <air-cell title="Stepper 步进器" is-link url="/pages/stepper/index"></air-cell>
    </air-cell-group>
 </air-panel>
