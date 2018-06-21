@@ -1,6 +1,10 @@
 # air-weapp
 
-### 目录结构
+## 概述
+[air-webapp](https://github.com/AlanZou007/air-weapp) 包含组件有panel, cell, cell-group, icon action-sheet, button, rate, switch, stepper, loading, top-tips, upload.
+
+
+## 目录结构
 
 ```
 ├──  build          # CI构建目录
@@ -10,7 +14,7 @@
 └──  package.json   # 依赖       
 ```
 
-### 开发流程
+###开发流程
 1. `git clone git@github.com:AlanZou007/air-weapp.git`
 2. `npm install`
 3. 在开发者工具上打开 examples 目录。
