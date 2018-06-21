@@ -5,3 +5,7 @@
 .upload-camera {
     margin-left: 20px;
 }
+
+.upload-btn {
+    height: 30px;
+}

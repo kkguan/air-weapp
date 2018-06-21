@@ -1,6 +1,7 @@
 {
     "component": true,
     "usingComponents": {
-        "air-icon": "../icon/index"
+        "air-icon": "../icon/index",
+        "air-top-tips": "../top-tips/index"
     }
 }
