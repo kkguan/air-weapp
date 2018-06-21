@@ -28,3 +28,9 @@
         <air-cell title="Upload 文件上传" is-link url="/pages/upload/index"></air-cell>
    </air-cell-group>
 </air-panel>
+
+<air-panel title="业务组件">
+   <air-cell-group>
+        <air-cell title="Timer 倒计时" is-link url="/pages/timer/index"></air-cell>
+   </air-cell-group>
+</air-panel>

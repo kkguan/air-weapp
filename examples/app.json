@@ -12,7 +12,8 @@
     "pages/action-sheet/index",
     "pages/loading/index",
     "pages/switch/index",
-    "pages/upload/index"
+    "pages/upload/index",
+    "pages/timer/index"
   ],
   "window":{
     "backgroundTextStyle":"light",

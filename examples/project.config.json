@@ -33,7 +33,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
+			"current": 10,
 			"list": [
 				{
 					"id": -1,
@@ -94,6 +94,11 @@
 					"name": "upload",
 					"pathName": "pages/upload/index",
 					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "timer",
+					"pathName": "pages/timer/index"
 				}
 			]
 		}
