@@ -1,7 +1,7 @@
 # air-weapp
 
 ## 概述
-[air-webapp](https://github.com/AlanZou007/air-weapp) 包含组件有panel, cell, cell-group, icon action-sheet, button, rate, switch, stepper, loading, top-tips, upload.
+[air-webapp](https://github.com/AlanZou007/air-weapp) 包含组件有panel, cell, cell-group, icon action-sheet, button, rate, switch, stepper, loading, top-tips, upload, timer.
 
 
 ## 目录结构
