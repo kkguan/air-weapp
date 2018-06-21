@@ -1,4 +1,12 @@
 
+const PrefixInteger = function (num, n) {
+    if (n <= 2) {
+        return (Array(n).join(0) + num).slice(-n)
+    } else {
+        return num
+    }
+}
+
 Component({
 
     properties: {
@@ -111,14 +119,6 @@ Component({
             frequency
         }) {
             let t = during
-
-            const PrefixInteger = function (num, n) {
-                if (n <= 2) {
-                    return (Array(n).join(0) + num).slice(-n)
-                } else {
-                    return num
-                }
-            }
 
             const GetRTime = () => {
                 let [d, h, m, s, ms] = [0, 0, 0, 0, 0]
