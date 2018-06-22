@@ -1,8 +1,0 @@
-{
-    "navigationBarTitleText": "Upload 文件上传",
-    "usingComponents": {
-        "air-panel": "../../dist/panel/index",
-        "air-upload": "../../dist/upload/index",
-        "air-button": "../../dist/button/index"
-    }
-}

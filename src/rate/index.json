@@ -1,6 +1,0 @@
-{
-    "component": true,
-    "usingComponents": {
-        "air-icon": "../icon/index"
-    }
-}
