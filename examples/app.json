@@ -14,7 +14,8 @@
     "pages/switch/index",
     "pages/upload/index",
     "pages/timer/index",
-    "pages/popup/index"
+    "pages/popup/index",
+    "pages/loadmore/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
