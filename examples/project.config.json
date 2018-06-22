@@ -100,6 +100,12 @@
 					"name": "timer",
 					"pathName": "pages/timer/index",
 					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "popup",
+					"pathName": "pages/popup/index",
+					"query": ""
 				}
 			]
 		}

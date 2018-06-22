@@ -13,7 +13,8 @@
     "pages/loading/index",
     "pages/switch/index",
     "pages/upload/index",
-    "pages/timer/index"
+    "pages/timer/index",
+    "pages/popup/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
