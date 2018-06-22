@@ -1,7 +1,13 @@
+
+<p align="center">
+    <img width="150" src="./asserts/images/air.jpg" />
+    
+</p>
+<p align="center">简单，实用的小程序 UI 库</p>
 # air-weapp
 
 ## 概述
-[air-webapp](https://github.com/AlanZou007/air-weapp) 小程序UI框架，简单，组件丰富， 实用。
+[air-webapp](https://github.com/AlanZou007/air-weapp) 小程序UI框架，简单， 实用。
 
 
 组件现已包含actionsheet, button, cell, cell-group, icon, loading, loadmore, panel, popup, rate, stepper, switch, timer, top-tips, upload.
