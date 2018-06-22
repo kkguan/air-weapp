@@ -65,7 +65,7 @@
     ```json
     {
         "usingComponents": {
-            "zan-top-tips": "/path/to/zanui-weapp/dist/top-tips/index"
+            "air-top-tips": "/path/to/zanui-weapp/dist/top-tips/index"
         }
     }
     ```
