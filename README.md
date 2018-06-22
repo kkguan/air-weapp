@@ -8,6 +8,9 @@
 # Air Weapp
 
 [![Build Status](https://travis-ci.org/AlanZou007/air-weapp.svg?branch=master)](https://travis-ci.org/AlanZou007/air-weapp)
+![node (scoped)](https://img.shields.io/node/v/@stdlib/stdlib.svg)
+![npm (custom registry)](https://img.shields.io/npm/v/npm.svg?registry_uri=https%3A%2F%2Fregistry.npmjs.com)
+![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)
 
 ## 概述
 [air-webapp](https://github.com/AlanZou007/air-weapp) 小程序UI框架，简单， 实用。
