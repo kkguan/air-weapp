@@ -1,14 +1,14 @@
 function getCtx(selector) {
     const pages = getCurrentPages();
-    const ctx = pages[pages.length -1]
+    const ctx = pages[pages.length -1];
 
-    const componentCtx = ctx.selectComponent(selector)
+    const componentCtx = ctx.selectComponent(selector);
 
     if(!componentCtx) {
-        console.error('没有找到对应的组件')
+        console.error('没有找到对应的组件');
     }
 
-    return componentCtx
+    return componentCtx;
 }
 
 function Message(options) {
@@ -20,4 +20,4 @@ function Message(options) {
 
 module.exports = {
     $Message: Message
-}
+};

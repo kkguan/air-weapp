@@ -18,17 +18,17 @@ Component({
 
     methods: {
         _updateIsLastCell() {
-            let cells = this.getRelationNodes('../cell/index');;
+            let cells = this.getRelationNodes('../cell/index');
             const len = cells.length;
 
             if(len > 0) {
                 let lastIndex = len - 1;
                 cells.forEach((cell, index) => {
                     cell.updateIsLastCell(index === lastIndex);
-                })
+                });
                 
             }
 
         }
     }
-})
+});

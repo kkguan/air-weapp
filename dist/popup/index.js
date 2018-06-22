@@ -26,4 +26,4 @@ Component({
             this.triggerEvent('close', {});
         }
     }
-})
+});

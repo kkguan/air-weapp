@@ -29,7 +29,11 @@ Component({
     },
     methods: {
         handleUpload() {
-            const {sizeType, count, sourceType} = this.data;
+            const {
+                sizeType,
+                count,
+                sourceType
+            } = this.data;
 
             const config = {
                 count,
@@ -37,33 +41,29 @@ Component({
                 sourceType
             };
             wx.chooseImage({
-               ...config,
-               success: (res) => {
-          
-                this.triggerEvent('success', res)
-               },
-               fail: (ex) => {
-                this.triggerEvent('fail', ex)
-               }
-            })
+                ...config,
+                success: (res) => {
+                    this.triggerEvent('success', res);
+                },
+                fail: (ex) => {
+                    this.triggerEvent('fail', ex);
+                }
+            });
         },
         previewImage(payload) {
-            let urls = []
-            if(typeof payload === 'string') {
-                urls.push(payload)
+            let urls = [];
+            if (typeof payload === 'string') {
+                urls.push(payload);
             } else if (payload instanceof Array) {
-                urls = payload
+                urls = payload;
             } else {
-                console.warn('payload is not String or StringArray')
-                return false
+                console.warn('payload is not String or StringArray');
+                return false;
             }
 
             wx.previewImag({
                 urls,
-                fail: (ex) => {
-                   
-                }
-            })
+            });
         }
     }
-})
+});
