@@ -5,7 +5,7 @@
 </p>
 <p align="center">简单，实用的小程序 UI 库</p>
 
-![](https://img.shields.io/travis/USER/REPO.svg)
+[![Build Status](https://travis-ci.org/AlanZou007/air-weapp.svg?branch=master)](https://travis-ci.org/AlanZou007/air-weapp)
 
 ## 概述
 [air-webapp](https://github.com/AlanZou007/air-weapp) 小程序UI框架，简单， 实用。
