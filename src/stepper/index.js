@@ -79,13 +79,13 @@ Component({
             if(value < min) {
                 value = min;
             }
-            this.handleEmit(value)
+            this.handleEmit(value);
         },
         handleEmit(value) {
             const data = {
                 value,
-            } 
-            this.triggerEvent('change', data)
+            };
+            this.triggerEvent('change', data);
         }
     }
-})
+});

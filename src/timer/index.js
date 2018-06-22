@@ -1,11 +1,11 @@
 
 const PrefixInteger = function (num, n) {
     if (n <= 2) {
-        return (Array(n).join(0) + num).slice(-n)
+        return (Array(n).join(0) + num).slice(-n);
     } else {
-        return num
+        return num;
     }
-}
+};
 
 Component({
 
@@ -16,7 +16,7 @@ Component({
             value: '',
             observer(newVal, oldVal) {
                 if (newVal !== oldVal) {
-                    this.init()
+                    this.init();
                 }
             }
         },
@@ -25,7 +25,7 @@ Component({
             value: '',
             observer(newVal, oldVal) {
                 if (newVal !== oldVal) {
-                    this.init()
+                    this.init();
                 }
             }
         },
@@ -70,23 +70,23 @@ Component({
 
     methods: {
         clearInterval() {
-            const timer = this.data.timer
+            const timer = this.data.timer;
             if (timer) {
-                clearInterval(timer)
+                clearInterval(timer);
             }
         },
         init() {
-            this.clearInterval()
+            this.clearInterval();
 
             let {
                 during,
                 deadline,
                 showDay,
                 showMsec
-            } = this.data
+            } = this.data;
 
             if (!during) {
-                during = deadline - Date.now()
+                during = deadline - Date.now();
             }
 
             this.countdown({
@@ -107,9 +107,9 @@ Component({
                         m,
                         s,
                         ms
-                    })
+                    });
                 }
-            })
+            });
         },
 
         countdown({
@@ -118,23 +118,22 @@ Component({
             onChange,
             frequency
         }) {
-            let t = during
+            let t = during;
 
             const GetRTime = () => {
-                let [d, h, m, s, ms] = [0, 0, 0, 0, 0]
-
-                const second = Math.floor(t / 1000)
+                let [d, h, m, s, ms] = [0, 0, 0, 0, 0];
+                const second = Math.floor(t / 1000);
 
                 if (t >= 0) {
-                    d = Math.floor(second / 60 / 60 / 24)
-                    h = showDay ? Math.floor(second / 60 / 60 % 24) : Math.floor(second / 60 / 60)
-                    m = Math.floor(second / 60 % 60)
-                    s = Math.floor(second % 60)
-                    ms = Math.floor(t / 100 % 60)
+                    d = Math.floor(second / 60 / 60 / 24);
+                    h = showDay ? Math.floor(second / 60 / 60 % 24) : Math.floor(second / 60 / 60);
+                    m = Math.floor(second / 60 % 60);
+                    s = Math.floor(second % 60);
+                    ms = Math.floor(t / 100 % 60);
                 }
                 if (t == 0) {
-                    this.clearInterval()
-                    this.triggerEvent('complete')
+                    this.clearInterval();
+                    this.triggerEvent('complete');
                 }
 
                 onChange({
@@ -143,22 +142,22 @@ Component({
                     m: PrefixInteger(m, 2),
                     s: PrefixInteger(s, 2),
                     ms: PrefixInteger(ms, 1),
-                })
+                });
 
-                t = t - frequency
-            }
+                t = t - frequency;
+            };
 
             const timer = setInterval(GetRTime, frequency);
             this.setData({
                 timer
-            })
+            });
         }
     },
 
     ready() {
-        this.init()
+        this.init();
     },
     detached() {
-        this.clearInterval()
+        this.clearInterval();
     }
-})
+});

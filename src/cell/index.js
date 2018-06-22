@@ -59,7 +59,7 @@ Component({
             } = this.data;
             const type = typeof isLink;
 
-            this.triggerEvent('click', {})
+            this.triggerEvent('click', {});
 
             if (!isLink || !url || url === 'true' || url === 'false') return;
 
@@ -87,4 +87,4 @@ Component({
             });
         }
     }
-})
+});

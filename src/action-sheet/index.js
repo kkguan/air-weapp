@@ -31,12 +31,12 @@ Component({
             this.handleClickCancel();
         },
         handleClickCancel() {
-            this.triggerEvent('cancel')
+            this.triggerEvent('cancel');
         },
         handleClickItem(e) {
-            const dataset = e.currentTarget.dataset || {}
+            const dataset = e.currentTarget.dataset || {};
             const {index} = dataset;
-            this.triggerEvent('click', {index})
+            this.triggerEvent('click', {index});
         }
     }
-})
+});

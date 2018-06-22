@@ -55,9 +55,9 @@ Component({
 
     methods: {
         handleTap() {
-            if(this.data.disabled) return false
+            if(this.data.disabled) return false;
 
-            this.triggerEvent('click')
+            this.triggerEvent('click');
         }
     }
-})
+});

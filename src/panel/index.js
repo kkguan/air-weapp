@@ -15,4 +15,4 @@ Component({
             value: false
         }
     }
-})
+});

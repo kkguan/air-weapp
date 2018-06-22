@@ -36,18 +36,18 @@ Component({
             const index = e.currentTarget.dataset.index;
             this.triggerEvent('change',{
                 index : index + 1
-            })
+            });
         },
         handleTouchMove(e) {
             const data = this.data;
             if(data.disabled) {
-                return
+                return;
             }
             if(!e.changedTouches[0]) {
-                return
+                return;
             }
             const movePageX = e.changedTouches[0].pageX;
-            const space = movePageX - data.touchStart.pageX
+            const space = movePageX - data.touchStart.pageX;
             if( space <= 0 ){
                 return;
             }
@@ -55,14 +55,14 @@ Component({
             setIndex = setIndex  > data.count ? data.count : setIndex ;
             this.triggerEvent('change',{
                 index : setIndex 
-            })
+            });
         }
     },
     ready() {
         const className = '.air-rate';
-        var query = wx.createSelectorQuery().in(this)
+        var query = wx.createSelectorQuery().in(this);
         query.select( className ).boundingClientRect((res)=>{
             this.data.touchStart.pageX = res.left || 0;
-        }).exec()
+        }).exec();
     }
-})
+});
