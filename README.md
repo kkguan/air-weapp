@@ -56,7 +56,7 @@
     ```json
     {
         "usingComponents": {
-            "air-button": "/path/air-weapp/dist/btn/index"
+            "air-button": "/path/dist/btn/index"
         }
     }
     ```
@@ -72,14 +72,13 @@
     ```json
     {
         "usingComponents": {
-            "air-top-tips": "/path/to/zanui-weapp/dist/top-tips/index"
+            "air-top-tips": "/path/dist/top-tips/index"
         }
     }
     ```
     ```html
     <air-top-tips id="message" />
     ```
-
 ## 开源协议
 
 本项目基于 [MIT](https://zh.wikipedia.org/wiki/MIT%E8%A8%B1%E5%8F%AF%E8%AD%89)协议，请自由地享受和参与开源。
