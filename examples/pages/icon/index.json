@@ -1,7 +1,0 @@
-{
-    "navigationBarTitleText": "Icon 图标",
-    "usingComponents": {
-        "air-icon": "../../dist/icon/index"
-    }
-}
-

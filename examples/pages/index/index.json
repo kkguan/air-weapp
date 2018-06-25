@@ -1,9 +1,0 @@
-{
-    "navigationBarTitleText": "AirUI Weapp",
-    "usingComponents": {
-      "air-panel": "../../dist/panel/index",
-      "air-cell-group": "../../dist/cell-group/index",
-      "air-cell": "../../dist/cell/index",
-      "air-icon": "../../dist/icon/index"
-    }
-}

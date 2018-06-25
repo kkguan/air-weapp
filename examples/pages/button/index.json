@@ -1,7 +1,0 @@
-{
-   "navagationBarTittleText": "Button 按钮",
-   "usingComponents": {
-       "air-button": "../../dist/button/index",
-       "air-panel": "../../dist/panel/index"
-   }
-}

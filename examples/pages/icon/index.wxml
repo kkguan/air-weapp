@@ -1,6 +1,0 @@
-<view>
- <view class="icon-item" wx:for="{{ list }}" wx:key="{{index}}">
-        <air-icon type="{{ item }}" size="28" color="#80848f"></air-icon>
-        <view class="icon-item-name">{{ item }}</view>
-    </view>
-</view>

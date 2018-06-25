@@ -1,7 +1,0 @@
-{
-    "navigationBarTitleText": "TopTips 顶部提示",
-    "usingComponents": {
-      "air-button": "../../dist/button/index",
-      "air-top-tips": "../../dist/top-tips/index"
-    } 
-}
