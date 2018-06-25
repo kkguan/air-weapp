@@ -1,0 +1,27 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/list/index",
+    "pages/icon/index",
+    "pages/button/index",
+    "pages/panel/index",
+    "pages/color/index",
+    "pages/top-tips/index",
+    "pages/rate/index",
+    "pages/stepper/index",
+    "pages/action-sheet/index",
+    "pages/loading/index",
+    "pages/switch/index",
+    "pages/upload/index",
+    "pages/timer/index",
+    "pages/popup/index",
+    "pages/loadmore/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "debug": true
+}

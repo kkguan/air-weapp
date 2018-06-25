@@ -1,0 +1,119 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.0.9",
+	"appid": "wxc265fd9acbb92c35",
+	"projectname": "airUI",
+	"isGameTourist": true,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "icon",
+					"pathName": "pages/icon/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "color",
+					"pathName": "pages/color/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "message",
+					"pathName": "pages/message/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "rate",
+					"pathName": "pages/rate/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "stepper",
+					"pathName": "pages/stepper/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "stepper",
+					"pathName": "pages/stepper/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "actionsheet",
+					"pathName": "pages/action-sheet/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "loading",
+					"pathName": "pages/loading/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "switch",
+					"pathName": "pages/switch/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "upload",
+					"pathName": "pages/upload/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "timer",
+					"pathName": "pages/timer/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "popup",
+					"pathName": "pages/popup/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "loadmore",
+					"pathName": "pages/loadmore/index",
+					"query": ""
+				}
+			]
+		}
+	}
+}
