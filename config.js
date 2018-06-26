@@ -13,7 +13,7 @@ docute.init({
     {
       title:'基础',
       path:'/base',
-      source:'/base/icon.md'
+      source:'https://github.com/AlanZou007/air-weapp/blob/gh-pages/base/icon.md'
     },
     {
       title:'视图',
