@@ -17,12 +17,12 @@ docute.init({
     },
     {
       title:'视图',
-      path:'/view/topTips',
+      path:'/view',
       source:'/view/topTips.md'
     },
     {
       title:'布局',
-      path:'/layout/panel',
+      path:'/layout',
       source:'/layout/panel.md'
     }
   ],
