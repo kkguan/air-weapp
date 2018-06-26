@@ -13,7 +13,7 @@ docute.init({
     },
     {
       title:'基础',
-      path:'/base/icon',
+      path:'/base',
       source:'/base/icon.md'
     },
     {
