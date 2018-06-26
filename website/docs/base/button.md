@@ -1,5 +1,7 @@
 ---
 title: button
+nav: base 
+search: base
 ---
 
 ## Button 按钮
