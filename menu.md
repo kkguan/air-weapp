@@ -3,6 +3,10 @@
   - [Button](/base/button)
   - [Loading](/base/loading)
   - [Rate](/base/rate)
-<!-- - [Guide](/guide)
-  - [How to do A](/guide/how-to-do-a)
-  - [How to do B](/guide/how-to-do-b) -->
+  - [Stepper](/base/stepper)
+  - [Switch](/base/switch)
+- [视图](/view/topTips)
+  - [TopTips](/view/topTips)
+  - [ActionSheet](/view/actionSheet)
+- [布局](/layout/panel)
+  - [Panel](/layout/panel)
