@@ -14,17 +14,17 @@ docute.init({
     {
       title:'基础',
       path:'/base/icon',
-      // source:'/base/icon.md'
+      source:'/base/icon.md'
     },
     {
       title:'视图',
       path:'/view/topTips',
-      // source:'/view/topTips.md'
+      source:'/view/topTips.md'
     },
     {
       title:'布局',
       path:'/layout/panel',
-      // source:'/layout/panel.md'
+      source:'/layout/panel.md'
     }
   ],
   // announcement(route) {
