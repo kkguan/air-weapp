@@ -3,7 +3,7 @@ docute.init({
   repo: 'https://github.com/AlanZou007/air-weapp',
   // twitter: 'rem_rin_rin',
   // 'edit-link': 'https://github.com/egoist/docute/b÷lob/master/docs/',
-  landing: 'landing.html',
+  // landing: 'landing.html',
   toc:  './menu.md',
   nav:[
     {
@@ -13,7 +13,7 @@ docute.init({
     {
       title:'基础',
       path:'/base',
-      source:'https://github.com/AlanZou007/air-weapp/blob/gh-pages/base/icon.md'
+      source:'/base/icon.md'
     },
     {
       title:'视图',
