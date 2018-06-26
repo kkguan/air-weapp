@@ -5,7 +5,6 @@ docute.init({
   // 'edit-link': 'https://github.com/egoist/docute/b÷lob/master/docs/',
   landing: 'landing.html',
   toc:  './menu.md',
-  home:'/base/icon.md',
   nav:[
     {
       title:'Home',
