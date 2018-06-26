@@ -1,5 +1,7 @@
 ---
 title: button
+nav: base 
+search: base
 ---
 
 ## Button 按钮
@@ -22,8 +24,22 @@ title: button
 
 ```HTML
 <air-button type="primary" shape="circle" size="large" >默认按钮</air-button>
-``` 
-<!-- 
+```
+
+##### 绑定事件
+```HTML
+<air-button type="primary" shape="circle" bind:click="handClick" >默认按钮</air-button>
+```
+```js
+Page({
+  methods: {
+    handClick() {
+
+    }
+  }
+});
+```
+<!--
 ##### 按钮类型
 
 ```HTML
@@ -68,13 +84,17 @@ loading | Boolean | 否 | false | 按钮加载状态:默认是false
 long | Boolean | 否 |  false  | 按钮的联通状态,默认是false
 openType | String | 否 | - | 微信开放能力
 appParameter | String | 否 | - | 打开 APP 时，向 APP 传递的参数
-hoverStopPropagation | Boolean | 否 | - | 
+hoverStopPropagation | Boolean | 否 | - |
 hoverStartTime | Number | 否 | 20 |按住后多久出现点击态，单位毫秒
 hoverStayTime　| Number | 否 | 70 | 手指松开后点击态保留时间，单位毫秒
-lang　| String | 否 | en | 指定返回用户信息的语言，zh_CN 简体中文，zh_TW 繁体中文，en 英文 
+lang　| String | 否 | en | 指定返回用户信息的语言，zh_CN 简体中文，zh_TW 繁体中文，en 英文
 sessionFrom | String | 否 |当前标题| 会话来源
 sendMessageTitle | String | 否 | 当前分享路径 | 会话内消息卡片点击跳转小程序路径
 sendMessageImg | String | 否 | 截图 | 会话内消息卡片图片
 showMessageCard | String | 否 | false | 显示会话内消息卡片
 
+#### 事件
 
+事件名称 | 说明 | 回调参数
+---|---|---
+click | 按钮点击时触发 |

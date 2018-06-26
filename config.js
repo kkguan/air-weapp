@@ -1,5 +1,5 @@
 docute.init({
-  tocVisibleDepth: 3,
+  // tocVisibleDepth: 3,
   repo: 'https://github.com/AlanZou007/air-weapp',
   // twitter: 'rem_rin_rin',
   // 'edit-link': 'https://github.com/egoist/docute/b÷lob/master/docs/',
@@ -12,11 +12,11 @@ docute.init({
     },
     {
       title:'基础',
-      path:'/base',
+      path:'/base/',
       source:'/base/icon.md'
     }
   ],
-  announcement(route) {
+  // announcement(route) {
     //  const info = { type: 'success' }
     //  if (/\/zh-.+$/.test(route.path)) {
     //    info.html = '<a style="margin-right:10px;" class="docute-button docute-button-mini docute-button-success" href="https://github.com/egoist/donate" target="_blank">捐赠!</a> 通过 Patron 或者一次性捐赠支持 Docute 的开发。'
@@ -24,15 +24,15 @@ docute.init({
     //    info.html = '<a style="margin-right:10px;" class="docute-button docute-button-mini docute-button-success" href="https://github.com/egoist/donate" target="_blank">Donate!</a> Support Docute development by becoming a patron or one-time donation.'
     //  }
     //  return info
-   },
+  //  },
    plugins: [
     // the docsearch variable is provided by docsearch plugin
     docsearch({
       appId: 'BH4D9OD16A',
       apiKey: '65360cf9a91d87cd455d2b286d0d89ee',
       indexName: 'docute',
-      tags: ['english', 'zh-Hans', 'zh-Hant', 'ja','plus'],
-      url: 'https://v3.docute.org'
+      tags: ['english', 'zh-Hans', 'zh-Hant', 'ja','base'],
+      url: 'https://alanzou007.github.io/air-weapp'
     })
   ],
   // icons: [
