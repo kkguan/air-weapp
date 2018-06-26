@@ -3,7 +3,7 @@ docute.init({
   repo: 'https://github.com/AlanZou007/air-weapp',
   // twitter: 'rem_rin_rin',
   // 'edit-link': 'https://github.com/egoist/docute/b÷lob/master/docs/',
-  landing: 'landing.html',
+  // landing: 'landing.html',
   toc:  './menu.md',
   home:'/base/icon.md',
   nav:[
