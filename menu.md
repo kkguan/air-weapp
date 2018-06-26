@@ -1,4 +1,4 @@
-- [基础](/base)
+- [基础](/base/icon)
   - [Icon](/base/icon)
   - [Button](/base/button)
   - [Loading](/base/loading)
