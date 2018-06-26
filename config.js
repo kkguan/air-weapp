@@ -3,7 +3,7 @@ docute.init({
   repo: 'https://github.com/AlanZou007/air-weapp',
   // twitter: 'rem_rin_rin',
   // 'edit-link': 'https://github.com/egoist/docute/b÷lob/master/docs/',
-  // landing: 'landing.html',
+  landing: 'landing.html',
   toc:  './menu.md',
   home:'/base/icon.md',
   nav:[
@@ -39,10 +39,10 @@ docute.init({
    plugins: [
     // the docsearch variable is provided by docsearch plugin
     docsearch({
-      appId: 'BH4D9OD16A',
-      apiKey: '65360cf9a91d87cd455d2b286d0d89ee',
-      indexName: 'docute',
-      tags: ['english', 'zh-Hans', 'zh-Hant', 'ja','base'],
+      appId: '',
+      apiKey: '',
+      indexName: '',
+      tags: ['english', 'zh-Hans', 'zh-Hant', 'ja'],
       url: 'https://alanzou007.github.io/air-weapp'
     })
   ],
