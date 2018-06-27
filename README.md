@@ -21,16 +21,6 @@
 
 ![AirUI-WeApp](./asserts/images/code.jpg)
 
-## 目录结构
-
-```
-├──  assert         # 静态资源
-├──  build          # 构建目录
-├──  dist           # 打包结果目录
-├──  examples       # 例子
-├──  src            # 组件
-└──  package.json   # 依赖       
-```
 
 ## 下载
 ```bash
@@ -38,6 +28,9 @@
 ```
 
 ## 预览
+
+![AirUI-WeApp](./asserts/images/demo.png)
+
 1. 在 air-weapp 根目录下运行
     ``` bash
     # 安装项目依赖
@@ -46,6 +39,7 @@
     npm run dev
     ```
 2. 打开[微信web开发者工具](https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html)，'本地小程序项目 - 添加项目'，把 air-weapp/example 目录添加进去就可以预览示例demo了。
+
 
 ## 使用
 把项目根目录下的dist目录，复制到项目中。
