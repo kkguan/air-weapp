@@ -15,6 +15,10 @@ Component({
         size: {
             type: Number,
             value: 300
+        },
+        preView: {
+            type: Boolean,
+            value: false
         }
     },
     data: {
@@ -29,12 +33,26 @@ Component({
             this.setData({
                 loading: true
             });
-            const codeImg = createQrCodeImg(value, {
-                size: this.data.size
-            });
-            this.setData({
-                qrcodeImage: codeImg,
-                loading: false
+            try {
+                const codeImg = createQrCodeImg(value, {
+                    size: this.data.size
+                });
+                this.setData({
+                    qrcodeImage: codeImg,
+                    loading: false
+                });
+            } catch(ex) {
+                this.triggerEvent('fail', ex);
+            }
+
+        },
+        preViewImage() {
+            if(!this.data.preView) {
+                return;
+            }
+
+            wx.previewImage({
+                urls: [this.data.qrcodeImage]
             });
         }
     }
