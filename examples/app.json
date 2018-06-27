@@ -15,7 +15,8 @@
     "pages/upload/index",
     "pages/timer/index",
     "pages/popup/index",
-    "pages/loadmore/index"
+    "pages/loadmore/index",
+    "pages/qrcode/index"
   ],
   "window":{
     "backgroundTextStyle":"light",

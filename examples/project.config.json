@@ -12,9 +12,9 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.0.9",
-	"appid": "wxc265fd9acbb92c35",
+	"appid": "touristappid",
 	"projectname": "airUI",
-	"isGameTourist": true,
+	"isGameTourist": false,
 	"condition": {
 		"search": {
 			"current": -1,
@@ -33,7 +33,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
+			"current": 13,
 			"list": [
 				{
 					"id": -1,
@@ -112,6 +112,11 @@
 					"name": "loadmore",
 					"pathName": "pages/loadmore/index",
 					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "qrcode",
+					"pathName": "pages/qrcode/index"
 				}
 			]
 		}

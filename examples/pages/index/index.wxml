@@ -34,5 +34,6 @@
    <air-cell-group>
         <air-cell title="Timer 倒计时" is-link url="/pages/timer/index"></air-cell>
         <air-cell title="Loadmore 加载状态" is-link url="/pages/loadmore/index"></air-cell>
+        <air-cell title="Qrcode 小程序码" is-link url="/pages/qrcode/index"></air-cell>
    </air-cell-group>
 </air-panel>
