@@ -33,7 +33,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
+			"current": 9,
 			"list": [
 				{
 					"id": -1,
@@ -87,6 +87,12 @@
 					"id": -1,
 					"name": "switch",
 					"pathName": "pages/switch/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "badge",
+					"pathName": "pages/badge/index",
 					"query": ""
 				}
 			]

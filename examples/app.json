@@ -1,5 +1,5 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/list/index",
     "pages/icon/index",
@@ -11,13 +11,14 @@
     "pages/stepper/index",
     "pages/action-sheet/index",
     "pages/loading/index",
-    "pages/switch/index"
+    "pages/switch/index",
+    "pages/badge/index"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "debug": true
 }
