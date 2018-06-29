@@ -12,7 +12,12 @@
     "pages/action-sheet/index",
     "pages/loading/index",
     "pages/switch/index",
-    "pages/badge/index"
+    "pages/badge/index",
+    "pages/upload/index",
+    "pages/timer/index",
+    "pages/popup/index",
+    "pages/loadmore/index",
+    "pages/qrcode/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
