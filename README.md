@@ -17,7 +17,7 @@
 
 ## 下载
 ```bash
- git clone https://github.com/AlanZou007/air-weapp.git
+ npm install air-weapp
 ```
 
 ## 预览
