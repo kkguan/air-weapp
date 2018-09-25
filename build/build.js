@@ -38,6 +38,7 @@ gulp.task('compile-wxml', () => {
 if(!config.isProduction) {
     gulp.task('serve', () => {
         console.log('watch is running!');
+
         config.ext.forEach(item => {
             gulp.watch(`../src/**/*.${item}`, [`compile-${item}`]);
         });
@@ -45,5 +46,7 @@ if(!config.isProduction) {
 }
 
 gulp.task('build', ['compile-less', 'compile-js', 'compile-json', 'compile-wxml']);
+
+gulp.run('build');
 
 
