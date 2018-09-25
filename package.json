@@ -8,9 +8,8 @@
   },
   "miniprogram": "dist",
   "scripts": {
-    "dev": "gulp --gulpfile build/build-dev.js",
-    "build": "gulp --gulpfile build/build-prod.js",
-    "prepare": "npm run build",
+    "dev": "cross-env NODE_ENV=development gulp serve --gulpfile build/build.js",
+    "build": "cross-env NODE_ENV=production gulp build --gulpfile build/build.js",
     "precommit": "lint-staged"
   },
   "files": [
@@ -26,6 +25,7 @@
   "author": "azou",
   "license": "MIT",
   "devDependencies": {
+    "cross-env": "^5.2.0",
     "eslint": "^3.19.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^5.0.0",
