@@ -1,10 +1,13 @@
+const config = require('./config');
 const gulp = require('gulp');
 const less = require('gulp-less');
 const cssmin = require('gulp-clean-css');
 const base64 = require('gulp-base64');
 const rename = require('gulp-rename');
 
-gulp.task('compile-css', () => {
+console.log('env: ', process.env.NODE_ENV);
+
+gulp.task('compile-less', () => {
     return gulp.src(['../src/**/*.less', '!../src/**/_*.less'])
         .pipe(less())
         .pipe(base64({
@@ -14,29 +17,33 @@ gulp.task('compile-css', () => {
         .pipe(rename((path) => {
             path.extname = '.wxss';
         }))
-        .pipe(gulp.dest('../examples/dist/'));
+        .pipe(gulp.dest(config.distPath));
 });
 
 gulp.task('compile-js', () => {
     return gulp.src(['../src/**/*.js', '../src/**/*.wxs'])
-        .pipe(gulp.dest('../examples/dist/'));
+        .pipe(gulp.dest(config.distPath));
 });
 
 gulp.task('compile-json', () => {
     return gulp.src(['../src/**/*.json'])
-        .pipe(gulp.dest('../examples/dist/'));
+        .pipe(gulp.dest(config.distPath));
 });
 
 gulp.task('compile-wxml', () => {
     return gulp.src(['../src/**/*.wxml'])
-        .pipe(gulp.dest('../examples/dist/'));
+        .pipe(gulp.dest(config.distPath));
 });
 
-gulp.task('auto', () => {
-    gulp.watch('../src/**/*.less', ['compile-css']);
-    gulp.watch('../src/**/*.js', ['compile-js']);
-    gulp.watch('../src/**/*.json', ['compile-json']);
-    gulp.watch('../src/**/*.wxml', ['compile-wxml']);
-});
+if(!config.isProduction) {
+    gulp.task('serve', () => {
+        console.log('watch is running!');
+        config.ext.forEach(item => {
+            gulp.watch(`../src/**/*.${item}`, [`compile-${item}`]);
+        });
+    });
+}
 
-gulp.task('default', ['compile-css', 'compile-js', 'compile-json', 'compile-wxml', 'auto']);
+gulp.task('build', ['compile-less', 'compile-js', 'compile-json', 'compile-wxml']);
+
+
