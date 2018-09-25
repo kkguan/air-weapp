@@ -27,7 +27,7 @@ Component({
     },
     methods: {
         handleClickMask() {
-            if(!this.data.maskClosable) return;
+            if (!this.data.maskClosable) return;
             this.handleClickCancel();
         },
         handleClickCancel() {
@@ -35,8 +35,11 @@ Component({
         },
         handleClickItem(e) {
             const dataset = e.currentTarget.dataset || {};
-            const {index} = dataset;
-            this.triggerEvent('click', {index});
+            const { index = null } = dataset;
+            if (index) {
+                this.triggerEvent('click', { index });
+            }
+
         }
     }
 });
