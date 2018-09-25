@@ -10,8 +10,9 @@
 [![Build Status](https://travis-ci.org/AlanZou007/air-weapp.svg?branch=master)](https://travis-ci.org/AlanZou007/air-weapp)
 
 ## 概述
-[air-webapp](https://github.com/AlanZou007/air-weapp) 小程序UI库，简单， 实用。
+[air-weapp](https://github.com/AlanZou007/air-weapp) 小程序UI库，简单， 实用。
 
+:zap: 现已支持npm支持下载！请放心食用～
 
 组件现已包含actionsheet, badge, button, cell, cell-group, icon, loading, loadmore, panel, popup, rate, stepper, switch, timer, top-tips, upload, qrcode.
 
