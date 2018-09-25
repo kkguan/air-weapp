@@ -45,7 +45,7 @@
     ```json
     {
         "usingComponents": {
-            "air-button": "/path/dist/btn/index"
+            "air-button": "air-weapp/btn"
         }
     }
     ```
@@ -61,7 +61,7 @@
     ```json
     {
         "usingComponents": {
-            "air-top-tips": "/path/dist/top-tips/index"
+            "air-top-tips": "air-weapp/top-tips"
         }
     }
     ```
