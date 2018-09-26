@@ -25,8 +25,6 @@
 
 ![AirUI-WeApp](./asserts/images/code.jpg)
 
-### 注意： 线上版本因为腾讯大佬的问题，可能落后于现在版本 ！
-
 1. 在 air-weapp 根目录下运行
     ``` bash
     # 安装项目依赖
