@@ -1,3 +1,5 @@
+
+
 const defaultData = {
     visible: false,
     content: '',
@@ -31,7 +33,7 @@ Component({
                 }, d);
             }
         },
-        handleHide () {
+        handleHide() {
             this.setData({
                 ...defaultData
             });

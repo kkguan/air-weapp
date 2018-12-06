@@ -1,6 +1,6 @@
 {
   "name": "air-weapp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "微信小程序 UI 组件库",
   "main": "app.js",
   "directories": {
