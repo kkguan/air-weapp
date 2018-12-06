@@ -12,7 +12,11 @@
     overflow: hidden;
 
     &::after {
-        .hairline-bottom(#eee, 15px);
+        .hairline-bottom(@border-color-split, 15px);
+    }
+
+    &-last::after{
+        display: none;
     }
 
     &-icon{
