@@ -1,7 +1,4 @@
-const warn = (msg, getValue) => {
-    console.warn(msg);
-    console.log('接收到的值为：', getValue);
-};
+const { warn } = require('../utils');
 
 Component({
     externalClasses: ['air-class'],

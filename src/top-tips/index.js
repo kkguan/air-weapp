@@ -7,6 +7,13 @@ const defaultData = {
 
 let timer = null;
 
+function Message(options) {
+    const { selector = '#message' } = options;
+    const ctx = getCtx(selector);
+
+    ctx.handleShow(options);
+}
+
 Component({
     externalClasses: ['air-class'],
     data: {
@@ -38,3 +45,7 @@ Component({
         }
     }
 });
+
+module.exports = {
+    $Message: Message
+};

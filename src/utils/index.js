@@ -1,4 +1,9 @@
-function getCtx(selector) {
+const warn = (msg, getValue) => {
+    console.warn(msg);
+    console.log('接收到的值为：', getValue);
+};
+
+const getCtx = (selector) => {
     const pages = getCurrentPages();
     const ctx = pages[pages.length -1];
 
@@ -9,15 +14,9 @@ function getCtx(selector) {
     }
 
     return componentCtx;
-}
-
-function Message(options) {
-    const { selector = '#message' } = options;
-    const ctx = getCtx(selector);
-
-    ctx.handleShow(options);
-}
+};
 
 module.exports = {
-    $Message: Message
+    warn,
+    getCtx
 };

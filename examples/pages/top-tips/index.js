@@ -1,4 +1,4 @@
-const { $Message } = require('../../dist/base/index');
+const { $Message } = require('../../dist/top-tips');
 
 Page({
     handleDefault () {
