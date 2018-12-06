@@ -9,6 +9,6 @@ Page({
 
     },
     handleTimerComplete3() {
-        
+
     }
-})
+});

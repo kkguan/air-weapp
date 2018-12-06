@@ -1,11 +1,4 @@
-
-const PrefixInteger = function (num, n) {
-    if (n <= 2) {
-        return (Array(n).join(0) + num).slice(-n);
-    } else {
-        return num;
-    }
-};
+const { prefixInteger } = require('../utils/index');
 
 Component({
 
@@ -34,26 +27,6 @@ Component({
             type: String,
             value: '1'
         },
-        d: {
-            type: String,
-            value: '00'
-        },
-        h: {
-            type: String,
-            value: '00'
-        },
-        m: {
-            type: String,
-            value: '00'
-        },
-        s: {
-            type: String,
-            value: '00'
-        },
-        ms: {
-            type: String,
-            value: '0'
-        },
         showDay: {
             type: Boolean,
             value: true
@@ -65,7 +38,12 @@ Component({
     },
 
     data: {
-        timer: null
+        timer: null,
+        d: '00',
+        h: '00',
+        m: '00',
+        s: '00',
+        ms: '0',
     },
 
     methods: {
@@ -93,14 +71,7 @@ Component({
                 during: during,
                 frequency: showMsec ? 100 : 1000,
                 showDay,
-                showMsec,
-                onChange: ({
-                    d,
-                    h,
-                    m,
-                    s,
-                    ms
-                }) => {
+                onChange: ({ d, h, m, s, ms }) => {
                     this.setData({
                         d,
                         h,
@@ -114,9 +85,9 @@ Component({
 
         countdown({
             during,
+            frequency,
             showDay,
             onChange,
-            frequency
         }) {
             let t = during;
 
@@ -137,11 +108,11 @@ Component({
                 }
 
                 onChange({
-                    d: PrefixInteger(d, 2),
-                    h: PrefixInteger(h, 2),
-                    m: PrefixInteger(m, 2),
-                    s: PrefixInteger(s, 2),
-                    ms: PrefixInteger(ms, 1),
+                    d: prefixInteger(d, 2),
+                    h: prefixInteger(h, 2),
+                    m: prefixInteger(m, 2),
+                    s: prefixInteger(s, 2),
+                    ms: prefixInteger(ms, 1),
                 });
 
                 t = t - frequency;

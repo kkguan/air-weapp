@@ -1,4 +1,4 @@
-const { warn } = require('../utils');
+const { warn } = require('../utils/index');
 
 Component({
     externalClasses: ['air-class'],

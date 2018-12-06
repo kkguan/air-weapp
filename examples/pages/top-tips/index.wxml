@@ -5,4 +5,4 @@
     <air-button type="ghost" bind:click="handleError">错误提醒</air-button>
     <air-button type="ghost" bind:click="handleDuration">自定义持续时间</air-button>
 </view>
-<air-top-tips id="message" />
+<air-top-tips id="tips" />

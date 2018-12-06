@@ -1,15 +1,60 @@
-@import "./_base.less";
+@import './mixins/clearfix.less';
+@import './mixins/ellipsis.less';
+@import "./mixins/hairline.less";
 
-.hairline() {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 200%;
-    height: 200%;
-    transform: scale(.5);
-    transform-origin: 0 0;
-    pointer-events: none;
-    box-sizing: border-box;
-    border: 0 solid @border-color-split;
+.clearfix {
+    .clearfix();
 }
+
+.line {
+    .ellipsis();
+}
+
+.line-2 {
+    .multi-ellipsis(2);
+}
+
+.line-3 {
+    .multi-ellipsis(3);
+}
+
+.air-hairline,
+.air-hairline--top,
+.air-hairline--left,
+.air-hairline--right,
+.air-hairline--bottom,
+.air-hairline--top-bottom,
+.air-hairline--surround {
+  position: relative;
+
+  &::after {
+    .hairline();
+  }
+}
+
+.air-hairline {
+  &--top::after {
+    border-top-width: 1px;
+  }
+
+  &--left::after {
+    border-left-width: 1px;
+  }
+
+  &--right::after {
+    border-right-width: 1px;
+  }
+
+  &--bottom::after {
+    border-bottom-width: 1px;
+  }
+
+  &--top-bottom::after {
+    border-width: 1px 0;
+  }
+
+  &--surround::after {
+    border-width: 1px;
+  }
+}
+

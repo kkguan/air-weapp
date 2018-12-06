@@ -65,12 +65,12 @@
     }
     ```
     ```html
-    <air-top-tips id="message" />
+    <air-top-tips id="tips" />
     ```
     ```js
-        const { $Message } = require('air-weapp/top-tips');
+        const { tips } = require('air-weapp/base/index');
 
-        $Message({
+        tips({
             content: '这是一条普通提醒'
         });
     ````

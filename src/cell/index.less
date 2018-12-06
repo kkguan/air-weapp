@@ -1,5 +1,5 @@
 @import "../styles/_base.less";
-@import "../styles/_mixins.less";
+@import "../styles/mixins/hairline.less";
 
 .air-cell {
     position: relative;
@@ -12,13 +12,7 @@
     overflow: hidden;
 
     &::after {
-        .hairline();
-        border-bottom-width: 1px;
-        left: 15px;
-        right: 0;
-    }
-    &-last::after{
-        display: none;
+        .hairline-bottom(#eee, 15px);
     }
 
     &-icon{

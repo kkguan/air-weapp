@@ -1,3 +1,5 @@
+
+
 const defaultData = {
     visible: false,
     content: '',
@@ -6,13 +8,6 @@ const defaultData = {
 };
 
 let timer = null;
-
-function Message(options) {
-    const { selector = '#message' } = options;
-    const ctx = getCtx(selector);
-
-    ctx.handleShow(options);
-}
 
 Component({
     externalClasses: ['air-class'],
@@ -38,14 +33,10 @@ Component({
                 }, d);
             }
         },
-        handleHide () {
+        handleHide() {
             this.setData({
                 ...defaultData
             });
         }
     }
 });
-
-module.exports = {
-    $Message: Message
-};
